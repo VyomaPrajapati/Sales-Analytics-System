@@ -24,16 +24,15 @@ A comprehensive Python-based system designed to process, clean, and analyze e-co
   - Exports enriched data to `enriched_sales_data.txt`.
 
 ## 📁 Project Structure
-
-```text
+                      
 sales-analytics-system/
-├── main.py                # Main execution script and CLI
-├── README.md              # Project documentation
-├── requirements.txt       # Project dependencies
-├── utils/                 # Modular logic components
-│   ├── __init__.py        # Makes utils a Python package
-│   ├── file_handler.py    # File I/O and encoding logic
-│   ├── data_processor.py  # Cleaning, analytics, and reporting
-│   └── api_handler.py     # API communication and mapping
-├── data/                  # Input and enriched output files
-└── output/                # Generated analytical reports
+  ├── README.md                       # Project documentation
+  ├── main.py                         # Main execution script and CLI
+  ├── utils/                          # Modular logic components
+  │   ├── file_handler.py             # File I/O and encoding logic
+  │   ├── data_processor.py           # Cleaning, analytics, and reporting
+  │   └── api_handler.py              # API communication and mapping
+  ├── data/                             # Input and enriched output files
+  │   └── sales_data.txt (provided)
+  ├── output/                            # Generated analytical reports
+  └── requirements.txt
