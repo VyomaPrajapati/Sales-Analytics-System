@@ -50,7 +50,6 @@ def main():
 
         # [5/10] Analysis
         print("\n[5/10] Analyzing sales data...")
-        # (Internal processing happens here)
         print("ü Analysis complete")
 
         # [6/10] API Fetching
