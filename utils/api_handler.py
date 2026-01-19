@@ -25,7 +25,7 @@ def create_product_mapping(api_products):
     """
     mapping = {}
     for item in api_products:
-        # We use .get(key, default) to handle missing data gracefully
+        # We use .get(key, default) to handle missing data
         mapping[item['id']] = {
             'title': item.get('title', 'Unknown Product'),
             'category': item.get('category', 'General'),
